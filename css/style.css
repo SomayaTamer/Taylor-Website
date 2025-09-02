@@ -255,15 +255,19 @@ header{
   font-weight: 400;
   margin-bottom: 30px;
 }
-.products-text button{
+.products-text .btn{
   border-radius: 10px;
   font-size: 14px;
   padding: 5px 18px;
   background-color: white;
   border: 1px solid #B1B1B1;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  transition: var(--transion);
 }
-.products-text button:hover {
+.products-text .btn:hover {
   background-color: #f0f0f0; 
   transform: scale(1.05);  
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
